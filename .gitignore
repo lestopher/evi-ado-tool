@@ -11,3 +11,13 @@
 *.lai
 *.la
 *.a
+
+# Ignore Release folder
+Release/*
+
+# Ignore Debug folder
+Debug/*
+
+# Ignore vim backup files and swp files
+*~
+*.swp

@@ -1,0 +1,59 @@
+﻿Build started 2/21/2013 7:53:44 AM.
+     1>Project "C:\Users\Travis.Powell\Documents\Visual Studio 2010\Projects\ADO_tool_1.23v\ADO_tool\ADO_tool.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ADO_tool.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ADO_tool.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ADO_tool.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ADO_tool.cpp AssemblyInfo.cpp frmPassword.cpp unused_code.cpp /clr:nostdlib 
+         ADO_tool.cpp
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'wireHWND' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding '_RemotableHandle' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding '__MIDL_IWinTypes_0009' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding '_COSERVERINFO' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding '_COAUTHINFO' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding '_COAUTHIDENTITY' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'IPersistFile' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'IPersist' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'IAuthenticate' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'IErrorInfo' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'IMarshal' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'IStream' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding '_LARGE_INTEGER' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding '_ULARGE_INTEGER' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding 'tagSTATSTG' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+     1>c:\users\travis.powell\documents\visual studio 2010\projects\ado_tool_1.23v\ado_tool\Form1.h(62): warning C4192: automatically excluding '_FILETIME' while importing type library 'c:\program files\common files\system\ole db\oledb32.dll'
+         AssemblyInfo.cpp
+         frmPassword.cpp
+         unused_code.cpp
+         Generating Code...
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Travis.Powell\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,Release\ADO_tool.Form1.resources frmPassword.resx,Release\ADO_tool.frmPassword.resources
+         Processing resource file "Form1.resX" into "Release\ADO_tool.Form1.resources".
+         Processing resource file "frmPassword.resx" into "Release\ADO_tool.frmPassword.resources".
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Travis.Powell\Documents\Visual Studio 2010\Projects\ADO_tool_1.23v\Release\ADO_tool.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\ADO_tool.Form1.resources /ASSEMBLYRESOURCE:Release\ADO_tool.frmPassword.resources /MANIFEST /ManifestFile:"Release\ADO_tool.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Travis.Powell\Documents\Visual Studio 2010\Projects\ADO_tool_1.23v\Release\ADO_tool.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\ADO_tool.obj
+         Release\AssemblyInfo.obj
+         Release\frmPassword.obj
+         Release\stdafx.obj
+         Release\unused_code.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ADO_tool.vcxproj -> C:\Users\Travis.Powell\Documents\Visual Studio 2010\Projects\ADO_tool_1.23v\Release\ADO_tool.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Travis.Powell\Documents\Visual Studio 2010\Projects\ADO_tool_1.23v\Release\ADO_tool.exe;#1" /manifest Release\ADO_tool.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ADO_tool.unsuccessfulbuild".
+         Touching "Release\ADO_tool.lastbuildstate".
+     1>Done Building Project "C:\Users\Travis.Powell\Documents\Visual Studio 2010\Projects\ADO_tool_1.23v\ADO_tool\ADO_tool.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.19
